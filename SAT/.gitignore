@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Large Data Files
+data/processed_train.pkl
+*.joblib
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+ai_service_debug.log
+
+# OS files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+build/
+*.egg-info/
+.next/
+out/
+
+# Database
+qdrant_data/
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

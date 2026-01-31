@@ -1,0 +1,20 @@
+
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/components/Navbar.tsx(2,41): error TS6133: 'X' is declared but its value is never read.
+src/pages/AgentControlRoom.tsx(66,23): error TS2503: Cannot find namespace 'NodeJS'.
+src/pages/dashboards/HospitalDashboard.tsx(12,1): error TS6133: 'FeatureImportanceChart' is declared but its value is never read.
+src/pages/Forecasts.tsx(2,1): error TS6133: 'motion' is declared but its value is never read.
+src/pages/Forecasts.tsx(4,5): error TS6133: 'Calendar' is declared but its value is never read.
+src/pages/Forecasts.tsx(5,22): error TS6133: 'Pill' is declared but its value is never read.
+src/pages/Forecasts.tsx(5,28): error TS6133: 'Shield' is declared but its value is never read.
+src/pages/Forecasts.tsx(5,45): error TS6133: 'TableIcon' is declared but its value is never read.
+src/pages/Forecasts.tsx(6,5): error TS6133: 'BarChart2' is declared but its value is never read.
+src/pages/Hospitals.tsx(4,47): error TS6133: 'Bed' is declared but its value is never read.
+src/pages/Hospitals.tsx(5,3): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/pages/Hospitals.tsx(5,16): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/pages/Hospitals.tsx(5,44): error TS6133: 'Users' is declared but its value is never read.
+src/pages/Hospitals.tsx(271,47): error TS6133: 'index' is declared but its value is never read.
+src/pages/LandingPage.tsx(3,20): error TS6133: 'ShieldCheck' is declared but its value is never read.
+src/pages/LandingPage.tsx(3,45): error TS6133: 'Users' is declared but its value is never read.
